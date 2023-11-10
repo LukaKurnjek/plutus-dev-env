@@ -7,5 +7,5 @@ This repository tries to maintain up-to-date instructions for how to setup a Plu
 * Using a docker image, that can be used standalone or integrated with VSCode. 
 * Using the platform Demeter.run that provides an up-to-date online development environment. 
 
-Instructions for the above posibilites are provided in the folder instructions. 
+Instructions for the above posibilites are provided in the folder *instructions*. 
 
