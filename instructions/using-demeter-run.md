@@ -5,9 +5,9 @@
 
 The following instructions guide you through setting up a Plutus development environment in Demeter.Run: 
 * Open your browser, navigate to https://demeter.run/ and click the Login option on the top navigation menu. Login with your Google or GitHub account. You can also sign up for a new account. 
-![alt text](https://github.com/LukaKurnjek/plutus-dev-env/blob/main/images/demeter-run/login.PNG) 
+![alt text](https://github.com/LukaKurnjek/plutus-dev-env/blob/main/images/demeter-run/login.png) 
 * Under the Projects section you can click on **New project**. Then type in project Name, an optional description and select an organization, which will basically be the account your logged in with. 
-![alt text](https://github.com/LukaKurnjek/plutus-dev-env/blob/main/images/demeter-run/project-creation.PNG) 
+![alt text](https://github.com/LukaKurnjek/plutus-dev-env/blob/main/images/demeter-run/project-creation.png) 
 * After you clicked **Create project** you will see the project's admin page. You will need to add some DCUs (Demeter computing unints) to you project. You can specify a payment method and buy DCUs. 
 * Once you have DCUs you can start up your project. You can click on the **Open console** button. Under Workloads you can click **Create new** and select if you want a workspace, frontend, backend or backend with storage. 
 ![alt text](https://github.com/LukaKurnjek/plutus-dev-env/blob/main/images/demeter-run/project-admin.PNG) 
