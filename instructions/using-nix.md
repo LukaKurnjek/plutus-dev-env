@@ -3,6 +3,23 @@
 
 First you will need to install *nix* on your system. Instructions for Linux, Mac OS, Windows (WSL2) and Docker can be found at the [official webpage](https://nixos.org/download). 
 
+When installing Nix from the command line you will be asked following questions:
+```console
+Would you like to see a more detailed list of what I will do?
+[y/n] n 
+
+Can I use sudo?
+[y/n] y 
+
+Ready to continue?
+[y/n] 
+
+[sudo] password for user:
+
+Nix won't work in active shell sessions until you restart them.
+Press enter/return to acknowledge.
+```
+
 After installing Nix, you’ll have to activate flakes and enabele realising store objects during evaluation. You can do this by adding the following line to your nix system configuration file:
 ```console
 experimental-features = nix-command flakes
