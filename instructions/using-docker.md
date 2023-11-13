@@ -1,9 +1,11 @@
 
 # Instructions for setting up your development environment with Docker  
 
-The files for setting up the docker environment in VSCode are locatted in the *.devcontainer* and *.vscode* folders. The docker image gets pulled from the following [DockerHub location](https://hub.docker.com/r/robertinoiog/plutus-pioneer-program-4). 
+The files for setting up the docker environment in VSCode are locatted in the *.devcontainer* and *.vscode* folders. The docker images for the cardano-node and the plutus dev. environment get pulled from the following DockerHub locations: 
+* [cardano-node](https://hub.docker.com/r/robertinoiog/cardano-node) 
+* [plutus-pioneer-program-4](https://hub.docker.com/r/robertinoiog/plutus-pioneer-program-4) 
 
-In case you do not want to use a Docker integration inside VSCode editor you can use the Docker image directly. The *Dockerfile* that contains the instructions for building an image is located inside the *.devcontainer* folder. 
+In case you do not want to use a Docker integration inside VSCode editor you can use the Docker image directly. The *Dockerfile* and the *docker-compose.yml* file are located inside the *.devcontainer* folder. 
 
 In both cases you will need to install [Docker Desktop](https://docs.docker.com/get-docker/). It is recomended to install and run Docker Desktop on your native OS. If you want to run Docker Desktop inside a Virtual Machine read through [these notes](https://docs.docker.com/desktop/vm-vdi/). 
 
