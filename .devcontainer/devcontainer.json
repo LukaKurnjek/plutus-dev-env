@@ -1,7 +1,7 @@
 {
-  "name": "Custom Cardano & Plutus",
-  "dockerComposeFile": "docker-compose.yml",
-  "service": "ppp",
+  "name": "PlutusTx",
+  "dockerComposeFile": "docker-compose-plutus.yml",
+  "service": "dev",
   "workspaceFolder": "/workspace",
   "shutdownAction": "stopCompose",
   "customizations": {

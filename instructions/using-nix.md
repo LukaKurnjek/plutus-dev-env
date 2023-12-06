@@ -23,6 +23,7 @@ Press enter/return to acknowledge.
 After installing Nix, you’ll have to activate flakes and enabele realising store objects during evaluation. You can do this by adding the following line to your nix system configuration file:
 ```console
 experimental-features = nix-command flakes
+accept-flake-config = true 
 allow-import-from-derivation = true
 ```
 
@@ -30,6 +31,7 @@ In case you are using Linux you can do that by running the command below which a
 ```console
 cat <<EOF | sudo tee -a /etc/nix/nix.conf
 experimental-features = nix-command flakes
+accept-flake-config = true 
 allow-import-from-derivation = true
 EOF
 ```
@@ -48,9 +50,21 @@ trusted-public-keys = hydra.iohk.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ=
 EOF
 ```
 
-To start the nix shell that contains the Plutus development environment you can run the following command: 
+Make sure your $USER is trusted. You can check this by running the command `nix show-config | grep trusted-users`.<br>
+If it is not add the following line to your nix system configuration file and restart the nix-daemon: 
 ```console
-nix develop github:input-output-hk/devX#ghc8107-iog
+trusted-users = root <YOUR_USER_NAME>
+```
+
+If your OS is systemd-based you can restart and check the status of the nix-daemon with the following command. 
+```console
+systemctl restart nix-daemon
+systemctl status nix-daemon
+```
+
+To start the nix shell that contains the Plutus development environment with GHCv8.10 you can run the following command: 
+```console
+nix develop github:input-output-hk/devX#ghc810-iog
 ```
 
 When you will run it for the first time it may take a while until everything has build. 
