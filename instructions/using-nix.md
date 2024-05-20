@@ -62,9 +62,7 @@ systemctl restart nix-daemon
 systemctl status nix-daemon
 ```
 
-To start the nix shell that contains the Plutus development environment with GHCv8.10 you can run the following command: 
-```console
-nix develop github:input-output-hk/devX#ghc810-iog --no-write-lock-file --refresh
-```
+For instructions on how to run a nix shell that contains the development environment for Plutus, please look at IOG's [Developer Experience Shell](https://github.com/input-output-hk/devx) repository. 
 
-When you will run it for the first time it may take a while until everything has build. 
+[!NOTE]
+When you will run your Nix shell for the first time it may take a while until everything has build. 

@@ -30,4 +30,4 @@ cabal update
 cabal build all
 ```
 
-Then you can cd into the *onchain/* fodler and start the REPL with `cabal repl`. 
+You can then cd into the *onchain/* fodler and start the REPL with `cabal repl`. 
