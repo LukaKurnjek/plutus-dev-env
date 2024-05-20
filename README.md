@@ -1,5 +1,3 @@
-# plutus-dev-env
-
 # Instructions for setting up a Plutus development enviroment 
 
 This repository aims to maintain up-to-date instructions for setting up a Plutus development environment. There are three possibilities how to setup the environment:  
