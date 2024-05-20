@@ -64,5 +64,6 @@ systemctl status nix-daemon
 
 For instructions on how to run a nix shell that contains the development environment for Plutus, please look at IOG's [Developer Experience Shell](https://github.com/input-output-hk/devx) repository. 
 
-[!NOTE]
-When you will run your Nix shell for the first time it may take a while until everything has build. 
+| :hourglass:   | When you will run your Nix shell for the first time it may take a while until everything has build.|  
+|---------------|:---------------------------------------------------------------------------------------------------|  
+
