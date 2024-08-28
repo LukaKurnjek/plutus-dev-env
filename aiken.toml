@@ -1,11 +1,11 @@
-name = "rober-m/ppp-contracts-in-aiken"
+name = "rober-m/ppp4-contracts-in-aiken"
 version = "0.0.0"
 license = "Apache-2.0"
-description = "Aiken contracts for project 'rober-m/ppp-contracts-in-aiken'"
+description = "Aiken contracts for project 'rober-m/ppp4-contracts-in-aiken'"
 
 [repository]
 user = "rober-m"
-project = "ppp-contracts-in-aiken"
+project = "ppp4-contracts-in-aiken"
 platform = "github"
 
 [[dependencies]]
