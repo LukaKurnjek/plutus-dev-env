@@ -4,8 +4,20 @@ This branch contains a translation of the Plinth (previously called PlutusTx) on
 [4th Plutus Pioneer program](https://github.com/input-output-hk/plutus-pioneer-program/tree/fourth-iteration). 
 They are re-writen in the Aiken smart contract language. 
 
-| :information_source: | To see an explanation of the code examples, you can look at the 4th Plutus Pioneer program lectures, that are linked on main README file of the 4th PPP branch. |
-|----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+To get a basic understanding of the Aiken programming language you can check out the *Language tour* at the official documentation, that 
+starts with [Primitive types](https://aiken-lang.org/language-tour/primitive-types). Further chapters can be accessed on the left-side menu. 
+
+The official docs also provide a walkthrough of creating a [Hello World project](https://aiken-lang.org/example--hello-world/basics) that covers: 
+* pre-requisites
+* scaffolding
+* using the standard library
+* the first validator
+* adding traces
+* writing a test
+* Lucid and PyCardano off-chain code  
+
+| :information_source: | To see an explanation of the validators in this repository, you can look at the 4th Plutus Pioneer program lectures, that are linked on main README file of the 4th PPP branch. |
+|----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 :hourglass: **Aiken installation instructions:**
 * First you will need to install the tooling manager *aikup*.<br>
@@ -41,8 +53,6 @@ They are re-writen in the Aiken smart contract language.
   For example ❌ `myValidator.ak` ✅ `my-validator.ak`  
 
 :green_heart: **Aiken and Cardano learning resources:**
-* To get a basic understanding of the Aiken programming language you can check out the *Language tour* at the official documentation, that 
-  starts with [Primitive types](https://aiken-lang.org/language-tour/primitive-types). Further chapters can be accessed on the left-side menu. 
 * The [Awsome Aiken](https://github.com/aiken-lang/awesome-aiken) repository provides links to Aiken libraries, DApps, tutorials and video lessons.
 * You can also check out the [Aiken for Amateurs](https://piefayth.github.io/blog/pages/aiken1/) tutorial, that is currently not include in Awsome Aiken. 
 * If you are starting with your Cardano journey you might want to check out the [What I wish I knew](https://aiken-lang.org/fundamentals/what-i-wish-i-knew) 
