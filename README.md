@@ -7,7 +7,7 @@ They are re-writen in the Aiken smart contract language.
 | :information_source: | To see an explanation of the code examples, you can look at the 4th Plutus Pioneer program lectures, that are linked on main README file of the 4th PPP branch. |
 |----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-:hourglass: **Installation instructions:**
+:hourglass: **Aiken installation instructions:**
 * First you will need to install the tooling manager *aikup*.<br>
   For Linux and Mac you can run the command:
   ```console
@@ -22,7 +22,7 @@ They are re-writen in the Aiken smart contract language.
 * Aiken comes with a built-in language server. The aiken docs provide [configuration instructions](https://aiken-lang.org/installation-instructions#language-server). 
 * Aiken can be integrated with the Zed, VSCode, Vim/Neovim and Emacs editors. Instructions can be found at the following [aiken docs](https://aiken-lang.org/installation-instructions#editor-integrations).  
 
-:pick: **Creating and building a project:**
+:pick: **Creating and building an Aiken project:**
 * To create a project you can use the command `aiken new --help` that will provide instructions for input parameters. The created project 
   will contain the ***aiken.toml*** file that contains the metadata about the project, as well as dependencies required by it. 
 * To check whether all dependencies get download successfully you can use the `aiken check` command. 
@@ -33,15 +33,15 @@ They are re-writen in the Aiken smart contract language.
   and a hash of the validator(s) that can be used to construct addresses. 
 * To get a list of all available aiken actions for the CLI simply run the `aiken` command without arguments. 
 
-:open_book: **Notes:**
+:open_book: **Important notes:**
 * The ***plutus.json*** file in this repository includes compiled code for all validators from the ***validators/*** folder that was 
   compiled with `Aiken v1.0.29-alpha`. If re-building the project with a newer version of Aiken the compiled code may change. 
   That does not impact the functionality of the code but can improve its performance. 
 * The language server protocol (LSP) doesn't work if filename uses camel case:<br> 
   For example ❌ `myValidator.ak` ✅ `my-validator.ak`  
 
-:green_heart: **Learning resources:**
-* The get a basic understanding of the Aiken programming language you can check out the *Language tour* at the official documentation, that 
+:green_heart: **Aiken and Cardano learning resources:**
+* To get a basic understanding of the Aiken programming language you can check out the *Language tour* at the official documentation, that 
   starts with [Primitive types](https://aiken-lang.org/language-tour/primitive-types). Further chapters can be accessed on the left-side menu. 
 * The [Awsome Aiken](https://github.com/aiken-lang/awesome-aiken) repository provides links to Aiken libraries, DApps, tutorials and video lessons.
 * You can also check out the [Aiken for Amateurs](https://piefayth.github.io/blog/pages/aiken1/) tutorial, that is currently not include in Awsome Aiken. 
